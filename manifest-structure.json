@@ -1,5 +1,5 @@
 {
-   "domain": string,
+   "domain": String,
    
    "uses-permission": [],
    "permission": [],
@@ -13,11 +13,11 @@
    "compatible-screens": [],
    "supports-gl-texture": [],
    "application": {
-      "icon": string,
-      "name": string,
+      "icon": String,
+      "name": String,
       "activity": {
-         "url": string,
-         "name": string,
+         "url": String,
+         "name": String,
          "intent-filter": {
             "action": [],
             "category": [],
@@ -26,7 +26,7 @@
          "meta-data": []
       },
       "activity-alias": {
-         "target-activity-name": string,
+         "target-activity-name": String,
          "intent-filter": ". . .",
          "meta-data": []
       },
