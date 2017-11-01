@@ -1,4 +1,6 @@
 {
+   "domain": string,
+   
    "uses-permission": [],
    "permission": [],
    "permission-tree": [],
@@ -11,7 +13,11 @@
    "compatible-screens": [],
    "supports-gl-texture": [],
    "application": {
+      "icon": string,
+      "name": string,
       "activity": {
+         "url": string,
+         "name": string,
          "intent-filter": {
             "action": [],
             "category": [],
@@ -20,6 +26,7 @@
          "meta-data": []
       },
       "activity-alias": {
+         "target-activity-name": string,
          "intent-filter": ". . .",
          "meta-data": []
       },
