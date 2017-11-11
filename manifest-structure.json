@@ -31,8 +31,8 @@
          !!!!?
       },
       "receiver": {
-         "name": ""
-         "permission: ?""
+         "name": "",
+         "permission: ?"",
          "intent-filter": ". . .",
          "meta-data": []
       },
