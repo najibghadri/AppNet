@@ -1,40 +1,38 @@
 {
-   "domain": String,
+   "domain": "",
    
    "uses-permission": [],
    "permission": [],
    "permission-tree": [],
    "permission-group": [],
-   "instrumentation": [],
-   "uses-sdk": [],
-   "uses-configuration": [],
-   "uses-feature": [],
-   "supports-screens": [],
-   "compatible-screens": [],
-   "supports-gl-texture": [],
+   
    "application": {
-      "icon": String,
-      "name": String,
+      "icon": "",
+      "name": "",
       "activity": {
-         "url": String,
-         "name": String,
+         "url": "",
+         "name": "",
          "intent-filter": {
             "action": [],
             "category": [],
             "data": []
+            . . .
          },
          "meta-data": []
       },
       "activity-alias": {
-         "target-activity-name": String,
+         "target-activity-name": "",
          "intent-filter": ". . .",
          "meta-data": []
       },
       "service": {
          "intent-filter": ". . .",
          "meta-data": []
+         !!!!?
       },
       "receiver": {
+         "name": ""
+         "permission: ?""
          "intent-filter": ". . .",
          "meta-data": []
       },
@@ -43,6 +41,7 @@
          "meta-data": [],
          "path-permission": []
       },
+         
       "uses-library": []
    }
 }
