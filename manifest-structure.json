@@ -15,8 +15,8 @@
          "intent-filter": {
             "action": [],
             "category": [],
-            "data": []
-            . . .
+            "data": [],
+            ". . ."
          },
          "meta-data": []
       },
@@ -27,7 +27,7 @@
       },
       "service": {
          "intent-filter": ". . .",
-         "meta-data": []
+         "meta-data": [],
          !!!!?
       },
       "receiver": {
@@ -41,7 +41,6 @@
          "meta-data": [],
          "path-permission": []
       },
-         
       "uses-library": []
    }
 }
