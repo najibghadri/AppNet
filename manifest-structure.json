@@ -1,10 +1,14 @@
 {
    "domain": "",
    
-   "uses-permission": [],
-   "permission": [],
-   "permission-tree": [],
-   "permission-group": [],
+   "use-scopes": [],
+   "scope-definitions": [
+      {
+        "scope-name": "",
+        "required-grant-type": "",
+      },
+      ...
+   ],
    
    "application": {
       "icon": "",
