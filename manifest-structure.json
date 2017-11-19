@@ -4,8 +4,8 @@
    "use-scopes": [],
    "scope-definitions": [
       {
-        "scope-name": "",
-        "required-grant-type": "",
+        "name": "",
+        "grant-type": "",
       },
       ...
    ],
