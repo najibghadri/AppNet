@@ -37,8 +37,8 @@
       "web-service": {
          "description":"",
          "protocol": "REST",
-         "api-definition-uri": "",
-         "api-definition-type": "OpenAPI/gRPC/GoogleAPI"  
+         "definition-uri": "",
+         "definition-type": "OpenAPI/gRPC/GoogleAPI"  
       },
       "receiver": {
          "name": "",
