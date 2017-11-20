@@ -7,12 +7,12 @@
         "name": "",
         "grant-type": "",
       },
-      ...
    ],
    
    "application": {
       "iconUrl": "",
       "name": "",
+      
       "activity": {
          "url": "",
          "name": "",
@@ -26,11 +26,24 @@
       "service": {
          "name"
          "url"
-         "intent-filter": ". . .",
+         "intent-filter":  {
+            "action": "appnet.intent.action.WEBCONSOLE",
+            "category": [],
+            "data": [],
+            ". . ."
+         },
       },
+      "web-service": {
+         "definition-url": "",
+         "definition-type": "OpenAPI"
+      }
       "receiver": {
          "name": "",
          "intent-filter": ". . .",
-        }
+      },
+      "local-service": {
+         
+      },
+      "local-content-provider": {}
    }
 }
