@@ -22,29 +22,15 @@
             "data": [],
             ". . ."
          },
-         "meta-data": []
-      },
-      "activity-alias": {
-         "target-activity-name": "",
-         "intent-filter": ". . .",
-         "meta-data": []
       },
       "service": {
+         "name"
+         "url"
          "intent-filter": ". . .",
-         "meta-data": [],
-         !!!!?
       },
       "receiver": {
          "name": "",
-         "permission: ?"",
          "intent-filter": ". . .",
-         "meta-data": []
-      },
-      "provider": {
-         "grant-uri-permission": [],
-         "meta-data": [],
-         "path-permission": []
-      },
-      "uses-library": []
+        }
    }
 }
