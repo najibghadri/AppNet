@@ -39,7 +39,7 @@
          "protocol": "REST",
          "api-definitiona-uri": "",
          "api-definition-type": "OpenAPI/gRPC/GoogleAPI"  
-      }
+      },
       "receiver": {
          "name": "",
          "intent-filter": ". . .",
