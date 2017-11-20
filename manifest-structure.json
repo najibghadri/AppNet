@@ -1,7 +1,8 @@
 {
    "domain": "",
-   
+   "documentation-link": "",
    "used-scopes": [],
+   "description":""
    "scope-definitions": [
       {
         "name": "",
@@ -34,8 +35,10 @@
          },
       },
       "web-service": {
-         "definition-url": "",
-         "definition-type": "OpenAPI"
+         "description":"",
+         "protocol": "REST",
+         "api-definitiona-uri": "",
+         "api-definition-type": "OpenAPI/gRPC/GoogleAPI"  
       }
       "receiver": {
          "name": "",
