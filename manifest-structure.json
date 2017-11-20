@@ -36,9 +36,11 @@
       },
       "web-service": {
          "description":"",
+         "documentation": "https://developer.github.com/v3/"
          "protocol": "REST",
-         "definition-uri": "",
-         "definition-type": "OpenAPI/gRPC/GoogleAPI"  
+         "api-definition-type": "OpenAPI/gRPC/GoogleAPI"  
+         "api-definition-uri": "https://api.github.com/OpenAPI",
+         "api-url": "https://api.github.com/"
       },
       "receiver": {
          "name": "",
