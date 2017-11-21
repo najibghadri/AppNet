@@ -1,0 +1,70 @@
+
+APP ID!
+
+Application tokens
+AppNet token
+Auth between activities and services (window.domain or token always?)
+Indirect startActivity: 
+Indirect service bind
+
+ANServer REST API (all of them used with User data!):
+
+POST /login/registration
+POST /user/login {}
+
+POST /register-app/ {User, manifest.json} -> clientID, clientSecret(APP_TOKEN)??
+POST /confirm-access/
+POST /register-broadcast-reciever/
+
+GET /error
+
+GET /resolve-activity-intent/ {User, intent, APP_TOKEN} (AppNetToken if indirect, but only in HEADER) -> 
+GET /resolve-service-intent/ {User, intent, APP_TOKEN} -> ???????
+POST /send-broadcast/ {User, intent, APP_TOKEN}
+
+GET /token-to-component/ {User, componentName, APP_TOKEN}
+GET /check-token/ {User, TOKEN, APP_TOKEN} -> bool
+
+GET /installed-apps/
+GET /app-components/
+GET /services/
+
+
+Js Client Library:
+
+startActivity[forResult](
+directStartActivity[forResult](
+
+startService(
+
+sendBroadcast(
+
+
+oAuth server:
+Resource Server:
+•	felhasználó intent filter regisztrálások
+•	felhasználó permission regisztrálások
+•	kliens regisztrálások
+•	felhasználó kliens regisztrálások
+•	endpointok (server apik)	
+
+JS library:
+•	Regisztrálás
+•	Activity indítások
+•	Service/Content provider indítások
+•	Broadcast reciever regisztrálások
+
+Flows:
+	Activity -> appnet -> Activity - js
+	Activity -> appnet -> Service/CP - js
+	Activity -> appnet -> BR - js
+	Service -> appnet -> Activiy! - server
+	Service -> appnet -> Service - server
+ 	Service -> appnet -> BR -server
+	BR -> appnet -> Activity! -server
+	BR -> appnet -> Service -server
+
+	
+	
+	
+	
