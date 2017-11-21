@@ -1,48 +1,54 @@
 {
-   "domain": String,
+   "domain": "",
+   "documentation-link": "",
+   "used-scopes": [],
+   "description":"",
+   "scope-definitions": [
+      {
+        "name": "",
+        "grant-type": "",
+      },
+   ],
    
-   "uses-permission": [],
-   "permission": [],
-   "permission-tree": [],
-   "permission-group": [],
-   "instrumentation": [],
-   "uses-sdk": [],
-   "uses-configuration": [],
-   "uses-feature": [],
-   "supports-screens": [],
-   "compatible-screens": [],
-   "supports-gl-texture": [],
    "application": {
-      "icon": String,
-      "name": String,
+      "iconUrl": "",
+      "name": "",
+      
       "activity": {
-         "url": String,
-         "name": String,
+         "url": "",
+         "name": "",
          "intent-filter": {
             "action": [],
             "category": [],
-            "data": []
+            "data": [],
+            ". . ."
          },
-         "meta-data": []
-      },
-      "activity-alias": {
-         "target-activity-name": String,
-         "intent-filter": ". . .",
-         "meta-data": []
       },
       "service": {
-         "intent-filter": ". . .",
-         "meta-data": []
+         "name"
+         "url"
+         "intent-filter":  {
+            "action": "appnet.intent.action.WEBCONSOLE",
+            "category": [],
+            "data": [],
+            ". . ."
+         },
+      },
+      "web-service": {
+         "description":"",
+         "documentation": "https://developer.github.com/v3/"
+         "protocol": "REST",
+         "api-definition-type": "OpenAPI/gRPC/GoogleAPI"  
+         "api-definition-uri": "https://api.github.com/OpenAPI",
+         "api-url": "https://api.github.com/"
       },
       "receiver": {
+         "name": "",
          "intent-filter": ". . .",
-         "meta-data": []
       },
-      "provider": {
-         "grant-uri-permission": [],
-         "meta-data": [],
-         "path-permission": []
+      "local-service": {
+         
       },
-      "uses-library": []
+      "local-content-provider": {}
    }
 }
