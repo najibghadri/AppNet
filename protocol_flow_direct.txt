@@ -1,0 +1,30 @@
+With access confirmation
+
++------------------+                               +------------------+
+|                  +--(A)- Authorization Request ->+                  |
+|                  |                               |       User       |
+|                  +<-(B)-- Authorization Grant ---+                  |
+|                  |                               +------------------+
+|                  |
+|                  |                               +------------------+
+|                  +--(C)-- Authorization Grant -->+                  |
+|                  |                               |                  |
+|                  +<-(D)----- Access Token -------+                  |
+|                  |                               |                  |
+|      Client      |                               |  Service broker  |
+|  webapplication  +--(E)--- Intent Request ------>+                  |
+|                  |                               |                  |
+|                  +<-(F)- Application connector --+                  |
+|                  |                               |                  |
+|                  |                               |                  |
+|                  |                               +----+-------+-----+
+|                  |                                    ^       |
+|                  |                                    |       |
+|                  |               Access confirmation (H)     (I) Confirmation
+|                  |                                    |       |
+|                  |                                    |       v
+|                  |                               +----+-------+-----+
+|                  +--(G)- Intent & Access Token ->+     Serving      |
+|                  |                               |  webapplication  |
+|                  +<-(J)--- Intent result --------+                  |
++------------------+                               +------------------+
