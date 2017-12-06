@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-manifest xmlns:appnet="http://schemas.appnet.com/appnet" appnet:versionName="" appnet:versionCode="" >
+
+  <domain appnet:url=""/>
+  <documentation-link appnet:url=""/>
+
+  <uses-permission appnet:name=""/>
+
+  <define-permission appnet:name=""
+                     appnet:grantType='["auth code" | "implicit" | ... ]'
+                     appnet:label=""
+                     appnet:icon=""
+                     appnet:description=""
+                     appnet:permissionGroup=""
+                     appnet:protectionLevel='["normal" | "dangerous" ]'/>
+
+  <define-permission-group appnet:name=""
+                           appnet:label=""
+                           appnet:icon=""
+                           appnet:description=""/>
+
+  <application appnet:name=""
+                appnet:icon=""
+                appnet:label=""
+                appnet:permisison="">
+
+    <activity appnet:url=""
+              appnet:name=""
+              appnet:icon=""
+              appnet:label=""
+              appnet:permisison="">
+
+      <intent-filter>
+        <action appnet:name=""/>
+        <category appnet:name=""/>
+        <data appnet:scheme="string"
+              appnet:host="string"
+              appnet:port="string"
+              appnet:path="string"
+              appnet:pathPrefix="string"
+              appnet:pathPattern="string"
+              appnet:mimeType="string"/>
+      </intent-filter>
+    </activity>
+
+    <service>
+      <intent-filter> . . . </intent-filter>
+    </service>
+
+    <receiver>
+      <intent-filter> . . . </intent-filter>
+    </receiver>
+
+  </application>
+
+</app-manifest>
