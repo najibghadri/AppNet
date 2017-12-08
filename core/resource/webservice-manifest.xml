@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-manifest xmlns:appnet="http://schemas.appnet.com/appnet" appnet:versionName="" appnet:versionCode="" >
+
+  <implemented-api appnet:uri=""/>
+
+  <domain appnet:url=""/>
+  <documentation-link appnet:url=""/>
+
+  <service-implementation
+          appnet:url=""
+          appnet:name=""
+          appnet:icon=""
+          appnet:label="">
+
+  </service-implementation>
+
+</app-manifest>
