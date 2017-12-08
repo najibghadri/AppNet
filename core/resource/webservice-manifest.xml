@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<app-manifest xmlns:appnet="http://schemas.appnet.com/appnet" appnet:versionName="" appnet:versionCode="" >
+<webservice-manifest xmlns:appnet="http://schemas.appnet.com/appnet" appnet:versionName="" appnet:versionCode="" >
 
   <implemented-api appnet:uri=""/>
-
+  <auth-definition appnet:url=""/>
   <domain appnet:url=""/>
   <documentation-link appnet:url=""/>
 
@@ -14,4 +14,4 @@
 
   </service-implementation>
 
-</app-manifest>
+</webservice-manifest>
